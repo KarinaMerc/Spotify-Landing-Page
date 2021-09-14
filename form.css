@@ -1,0 +1,200 @@
+@charset "utf-9";
+/*
+	File Name: 		Form
+	Author: 		Karina Mercuri
+	Student ID: 	101569382
+	Date Created: 	12/09/2021 		
+	Date Modified: 	12/09/2021
+*/
+
+*{
+	margin: 0;
+	height: 100%;
+}
+
+html{
+overflow: scroll;
+}
+
+.img-container{
+	background-image:url(<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">);
+	height: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.inner-container{
+	text-align: left;
+	position:absolute;
+	width: 100%;
+	color: white;
+	height:auto;
+	margin-top: 200px;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:20%;
+	padding: 1em 0;
+}
+
+body{
+	background:url("../img/Purple_Gradient.PNG");
+	-webkit-background-size: 920px 500px;
+	-moz-background-size: 920px 500px;
+	-o-background-size: 920px 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header_navigation .header_logo img {
+}
+
+.header {
+	height: 600px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+                  
+.header_bar {
+	height: 100px;
+	width: 100%; 
+	background-color: rgba(0,0,0,0.4);
+}
+
+@media only screen and (max-width:920px){
+	.inner-container{
+		margin-top: 100px;
+	}
+}
+
+@media only screen and (max-width:540px){
+	.inner-container{
+		margin-top: 150px;
+	}
+}
+.h1{
+	font-size: 100px;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+	margin-left: 2.5em
+}
+	
+footer{
+	text-align: center;
+	position: fixed;
+	left: 0;
+  	bottom:0;
+	width:100%;
+	background-color: rgba(0,0,0,0.4);;
+	color: white;
+	font-weight: bold;
+	height: 3em;
+	}
+
+
+/* Grid begins here */
+*{
+	box-sizing:border-box;
+}
+
+.row{
+	position:relative;
+	width:100%;
+	max-width:960px;
+	margin: 0 auto;
+	padding: 0 1.5rem;
+}
+
+.col{
+	width:100%;
+	float: left;
+	padding:.5em;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.row{
+		width: 85%;
+		padding: 0;
+	}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {	
+	.one.col				{width:10%;}
+	.two.col				{width:20%;}
+	.three.col				{width:30%;}
+	.four.col				{width:40%;}
+	.five.col				{width:50%;}
+	.six.col				{width:60%;}
+	.seven.col				{width:70%;}
+	.eight.col				{width:80%;}
+	.nine.col				{width:90%;}
+	.ten.col				{width:100%;margin-left:0;}
+	
+	.one-quarter.col		{width:25%;}
+	.one-third.col			{width:33.33%;}
+	.one-half.col			{width:50%;}
+	.two-thirds.col 		{width:66.66%;}
+	
+	.offset-by-one.col		{margin-left:10%;}
+	.offset-by-two.col		{margin-left:20%;}
+	.offset-by-three.col	{margin-left:30%;}
+	.offset-by-four.col		{margin-left:40%;}
+	.offset-by-five.col		{margin-left:50%;}
+	.offset-by-six.col		{margin-left:60%;}
+	.offset-by-seven.col	{margin-left:70%;}
+	.offset-by-eight.col	{margin-left:80%;}
+	.offset-by-nine.col		{margin-left:90%;}
+	.offset-by-ten.col		{margin-left:100%;}	
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
+/* Self Clearing Rows */
+.row:after{
+	content: "";
+	display:table;
+	clear:both;
+}
+
+/* Semantic */
+nav{
+	z-index:9999;
+}
+
+/* Form */
+form, input, label{
+	display:block;
+	width:100%;
+	z-index:1;
+}
+
+label .empty-field-message{
+	display:none;
+}
