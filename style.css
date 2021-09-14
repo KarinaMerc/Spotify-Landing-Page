@@ -1,0 +1,186 @@
+@charset "utf-9";
+/*
+	File Name: 			Spotify Landing page CSS
+	Author: 			Karina Mercuri
+	Student ID: 		101569382
+	Date created: 		9/09/2021
+	Date Modified: 		12/09/2021
+*/
+
+*{
+	margin: 0;
+	height: 100%;
+}
+
+html{
+overflow: scroll;
+}
+
+.img-container{
+	background-image:url(<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">);
+	height: 70%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.inner-container{
+	text-align: left;
+	position:absolute;
+	width: 100%;
+	color: white;
+	height:auto;
+	margin-top: 200px;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width:20%;
+	padding: 1em 0;
+}
+
+body{
+	background:url("../img/listening_to_music.jpg") no-repeat center center fixed; 
+	-webkit-background-size: 920px 500px;
+	-moz-background-size: 920px 500px;
+	-o-background-size: 920px 500px;
+	overflow: hidden;
+	background-size: cover;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header_navigation .header_logo img {
+}
+
+.header {
+	height: 600px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+                  
+.header_bar {
+	height: 100px;
+	width: 100%; 
+	background-color: rgba(0,0,0,0.4);
+}
+
+.h1, h1{
+	font-size: 100px;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+}
+
+.h2{
+	margin-top: -17px; 
+	font-family: 'Arimo', sans-serif;
+	font-size: 1.7em;
+	text-align: left;
+	font-weight: 200;
+	color:white;
+}
+
+.h3{
+	margin-left: 2.5em;
+	padding: 0 7em 2em 0;
+	margin-top: 20px;
+	font-family: 'Arimo', sans-serif;
+	font-size: 1.7em;
+	text-align: left;
+	font-weight: 200;
+	color: white;
+}
+
+a{
+	margin-top: 20px;
+	font-size: 1.3em;
+	font-family: 'Arimo', sans-serif;
+}
+
+.cta-button{
+	display: block;
+	width: 200px;
+	background-color:#1ED671;
+	font-weight: bold;
+	padding: 15px;	
+	color: #fff;
+	border-radius:1.0em;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	transition: background-color 0.2s ease-out, color 0.2s ease-out;
+	margin-left: 45px;
+
+}
+
+.cta-button:hover,.cta.button:active{
+	background-color: #8aefad	
+}
+
+@media only screen and (max-width:920px){
+	.inner-container{
+		margin-top: 100px;
+	}
+}
+
+@media only screen and (max-width:540px){
+	.inner-container{
+		margin-top: 150px;
+	}
+	h1{
+		font-size: 9em;
+	}
+	h2{
+		font-size: 1.4em;
+	}
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+footer{
+	text-align: center;
+	position: fixed;
+	left: 0;
+  	bottom:0;
+	width:100%;
+	background-color: rgba(0,0,0,0.4);;
+	color: white;
+	font-weight: bold;
+	height: 3em;
+    margin-top: -200px;
+	
+}
+
+.p{
+	align-content: center;
+	margin-top: 20px;
+	font-family: 'Arimo', sans-serif;
+	font-size: 1.7em;
+	text-align: left;
+	font-weight: 200;
+	color: white;
+}
+
+#hero-image{
+	display:block;
+	width:100%;
+	height:auto;
+	background-color:rgba(0,0,0,0.4);
+	margin:0;
+}
